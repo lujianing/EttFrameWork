@@ -45,6 +45,11 @@
 		DFC194CB1ADB7C2F008134E5 /* VerticallyAlignedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194B71ADB7C2F008134E5 /* VerticallyAlignedLabel.m */; };
 		DFC194D21ADB7F13008134E5 /* EttBaseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194CF1ADB7F13008134E5 /* EttBaseDetailViewController.m */; };
 		DFC194D31ADB7F13008134E5 /* EttBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194D11ADB7F13008134E5 /* EttBaseViewController.m */; };
+		DFD99C4A1ADBCAE60042144F /* FileCache in Resources */ = {isa = PBXBuildFile; fileRef = DFD99C491ADBCAE60042144F /* FileCache */; };
+		DFD99C4C1ADBCBBC0042144F /* FullImage in Resources */ = {isa = PBXBuildFile; fileRef = DFD99C4B1ADBCBBC0042144F /* FullImage */; };
+		DFD99C4E1ADBCCD00042144F /* DateDescription in Resources */ = {isa = PBXBuildFile; fileRef = DFD99C4D1ADBCCD00042144F /* DateDescription */; };
+		DFD99C501ADBCD2C0042144F /* TQRichTextView in Resources */ = {isa = PBXBuildFile; fileRef = DFD99C4F1ADBCD2C0042144F /* TQRichTextView */; };
+		DFD99C521ADBCF8D0042144F /* Album in Resources */ = {isa = PBXBuildFile; fileRef = DFD99C511ADBCF8D0042144F /* Album */; };
 		EEBDBFEBECEF43BE057B3B32 /* libPods-EttFrameWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E50F8B60CD98B83D563767DD /* libPods-EttFrameWork.a */; };
 /* End PBXBuildFile section */
 
@@ -145,6 +150,11 @@
 		DFC194D01ADB7F13008134E5 /* EttBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EttBaseViewController.h; sourceTree = "<group>"; };
 		DFC194D11ADB7F13008134E5 /* EttBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EttBaseViewController.m; sourceTree = "<group>"; };
 		DFD99C421ADBA2550042144F /* EttProDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EttProDefine.h; sourceTree = "<group>"; };
+		DFD99C491ADBCAE60042144F /* FileCache */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FileCache; sourceTree = "<group>"; };
+		DFD99C4B1ADBCBBC0042144F /* FullImage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FullImage; sourceTree = "<group>"; };
+		DFD99C4D1ADBCCD00042144F /* DateDescription */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DateDescription; sourceTree = "<group>"; };
+		DFD99C4F1ADBCD2C0042144F /* TQRichTextView */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TQRichTextView; sourceTree = "<group>"; };
+		DFD99C511ADBCF8D0042144F /* Album */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Album; sourceTree = "<group>"; };
 		E50F8B60CD98B83D563767DD /* libPods-EttFrameWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EttFrameWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -323,6 +333,9 @@
 		DF0929E21AD9113B00F0B788 /* OtherLib */ = {
 			isa = PBXGroup;
 			children = (
+				DFD99C511ADBCF8D0042144F /* Album */,
+				DFD99C4F1ADBCD2C0042144F /* TQRichTextView */,
+				DFD99C4D1ADBCCD00042144F /* DateDescription */,
 			);
 			path = OtherLib;
 			sourceTree = "<group>";
@@ -330,6 +343,8 @@
 		DF0929E31AD9113B00F0B788 /* OurLib */ = {
 			isa = PBXGroup;
 			children = (
+				DFD99C4B1ADBCBBC0042144F /* FullImage */,
+				DFD99C491ADBCAE60042144F /* FileCache */,
 				DFC194CC1ADB7C50008134E5 /* OurLib.h */,
 				DFC1948C1ADB7C2F008134E5 /* Easywork */,
 			);
@@ -510,8 +525,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFD99C4C1ADBCBBC0042144F /* FullImage in Resources */,
+				DFD99C4E1ADBCCD00042144F /* DateDescription in Resources */,
 				DF0929C21AD901AF00F0B788 /* Main.storyboard in Resources */,
+				DFD99C4A1ADBCAE60042144F /* FileCache in Resources */,
 				DF0929C71AD901AF00F0B788 /* LaunchScreen.xib in Resources */,
+				DFD99C501ADBCD2C0042144F /* TQRichTextView in Resources */,
+				DFD99C521ADBCF8D0042144F /* Album in Resources */,
 				DF0929C41AD901AF00F0B788 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,5 +14,6 @@
 #define DefaultUserPhoto ImageNamed(@"user_photo.png")
 #define DefaultPostPic ImageNamed(@"post_default.png")
 
+#define USER_ID 7878
 
 #endif
