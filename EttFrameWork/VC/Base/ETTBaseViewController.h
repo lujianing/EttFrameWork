@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ETTBaseViewController : UIViewController
+@interface EttBaseViewController : UIViewController
 
 @property (nonatomic, strong) UIImageView *navBackgroundView;
 @property (nonatomic, strong) UILabel *titleLabel;

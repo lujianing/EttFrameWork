@@ -69,9 +69,5 @@
 
 #define ImageWithFile(name) ([UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:name ofType:nil]])
 #define ImageNamed(name) [UIImage imageNamed:name]
-#define DefaultImage ImageNamed(@"photo_album.png")
-#define DefaultTeamLogo ImageNamed(@"team_logo.png")
-#define DefaultUserPhoto ImageNamed(@"user_photo.png")
-#define DefaultPostPic ImageNamed(@"post_default.png")
 
 #endif

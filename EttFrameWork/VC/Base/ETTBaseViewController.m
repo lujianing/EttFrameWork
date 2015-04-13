@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 kingxl. All rights reserved.
 //
 
-#import "ETTBaseViewController.h"
+#import "EttBaseViewController.h"
 #import <MBProgressHUD.h>
 #import <UIView+Toast.h>
 #import "MJRefresh.h"
@@ -14,7 +14,7 @@
 #import "MJRefreshFooter.h"
 
 
-@interface ETTBaseViewController ()
+@interface EttBaseViewController ()
 @property (nonatomic, strong) MBProgressHUD *hud;
 
 
@@ -30,7 +30,7 @@
 
 @end
 
-@implementation ETTBaseViewController
+@implementation EttBaseViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

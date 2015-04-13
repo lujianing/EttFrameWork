@@ -44,7 +44,7 @@
 		DFC194CA1ADB7C2F008134E5 /* EWVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194B51ADB7C2F008134E5 /* EWVideoPlayer.m */; };
 		DFC194CB1ADB7C2F008134E5 /* VerticallyAlignedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194B71ADB7C2F008134E5 /* VerticallyAlignedLabel.m */; };
 		DFC194D21ADB7F13008134E5 /* EttBaseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194CF1ADB7F13008134E5 /* EttBaseDetailViewController.m */; };
-		DFC194D31ADB7F13008134E5 /* ETTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194D11ADB7F13008134E5 /* ETTBaseViewController.m */; };
+		DFC194D31ADB7F13008134E5 /* EttBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194D11ADB7F13008134E5 /* EttBaseViewController.m */; };
 		EEBDBFEBECEF43BE057B3B32 /* libPods-EttFrameWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E50F8B60CD98B83D563767DD /* libPods-EttFrameWork.a */; };
 /* End PBXBuildFile section */
 
@@ -142,8 +142,9 @@
 		DFC194CC1ADB7C50008134E5 /* OurLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OurLib.h; sourceTree = "<group>"; };
 		DFC194CE1ADB7F13008134E5 /* EttBaseDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EttBaseDetailViewController.h; sourceTree = "<group>"; };
 		DFC194CF1ADB7F13008134E5 /* EttBaseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EttBaseDetailViewController.m; sourceTree = "<group>"; };
-		DFC194D01ADB7F13008134E5 /* ETTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTBaseViewController.h; sourceTree = "<group>"; };
-		DFC194D11ADB7F13008134E5 /* ETTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTBaseViewController.m; sourceTree = "<group>"; };
+		DFC194D01ADB7F13008134E5 /* EttBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EttBaseViewController.h; sourceTree = "<group>"; };
+		DFC194D11ADB7F13008134E5 /* EttBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EttBaseViewController.m; sourceTree = "<group>"; };
+		DFD99C421ADBA2550042144F /* EttProDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EttProDefine.h; sourceTree = "<group>"; };
 		E50F8B60CD98B83D563767DD /* libPods-EttFrameWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EttFrameWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -256,12 +257,13 @@
 		DF0929DC1AD9113B00F0B788 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				DF0929EE1AD9234700F0B788 /* EttCommon.h */,
 				DF0929DD1AD9113B00F0B788 /* Category */,
 				DF0929DE1AD9113B00F0B788 /* Utils */,
-				DF0929EE1AD9234700F0B788 /* EttCommon.h */,
 				DF0929EF1AD9237600F0B788 /* EttDefine.h */,
 				DFC194891ADB79F6008134E5 /* EttUtils.h */,
 				DFC1948A1ADB79F6008134E5 /* EttUtils.m */,
+				DFD99C421ADBA2550042144F /* EttProDefine.h */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -420,8 +422,8 @@
 			children = (
 				DFC194CE1ADB7F13008134E5 /* EttBaseDetailViewController.h */,
 				DFC194CF1ADB7F13008134E5 /* EttBaseDetailViewController.m */,
-				DFC194D01ADB7F13008134E5 /* ETTBaseViewController.h */,
-				DFC194D11ADB7F13008134E5 /* ETTBaseViewController.m */,
+				DFC194D01ADB7F13008134E5 /* EttBaseViewController.h */,
+				DFC194D11ADB7F13008134E5 /* EttBaseViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -594,7 +596,7 @@
 				DFC194BF1ADB7C2F008134E5 /* UIFont+Extension.m in Sources */,
 				DFC194C71ADB7C2F008134E5 /* EWPhotoViewer.m in Sources */,
 				DFC194BB1ADB7C2F008134E5 /* NSString+Extension.m in Sources */,
-				DFC194D31ADB7F13008134E5 /* ETTBaseViewController.m in Sources */,
+				DFC194D31ADB7F13008134E5 /* EttBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

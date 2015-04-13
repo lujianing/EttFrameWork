@@ -6,11 +6,11 @@
 //  Copyright (c) 2015年 kingxl. All rights reserved.
 //
 
-#import "ETTBaseViewController.h"
+#import "EttBaseViewController.h"
 
 
 
-@interface EttBaseDetailViewController : ETTBaseViewController
+@interface EttBaseDetailViewController : EttBaseViewController
 
 //评论列表tableview
 @property (nonatomic, strong) UITableView *listView;
