@@ -10,5 +10,6 @@
 #define EttFrameWork_EttCommon_h
 
 #import "EttDefine.h"
+#import "EttUtils.h"
 
 #endif

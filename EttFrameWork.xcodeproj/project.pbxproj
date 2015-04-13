@@ -22,6 +22,29 @@
 		DF0929FE1AD92DAC00F0B788 /* EttFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0929FD1AD92DAC00F0B788 /* EttFileUtil.m */; };
 		DF092A011AD92DD000F0B788 /* EttImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DF092A001AD92DD000F0B788 /* EttImageUtil.m */; };
 		DF092A041AD92E3F00F0B788 /* EttSecurityUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DF092A031AD92E3F00F0B788 /* EttSecurityUtil.m */; };
+		DFC1948B1ADB79F6008134E5 /* EttUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC1948A1ADB79F6008134E5 /* EttUtils.m */; };
+		DFC194B81ADB7C2F008134E5 /* NSData+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC1948F1ADB7C2F008134E5 /* NSData+Extension.m */; };
+		DFC194B91ADB7C2F008134E5 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194911ADB7C2F008134E5 /* NSDate+Extension.m */; };
+		DFC194BA1ADB7C2F008134E5 /* NSJSONSerialization+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194931ADB7C2F008134E5 /* NSJSONSerialization+Extension.m */; };
+		DFC194BB1ADB7C2F008134E5 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194951ADB7C2F008134E5 /* NSString+Extension.m */; };
+		DFC194BC1ADB7C2F008134E5 /* NSTimer+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194971ADB7C2F008134E5 /* NSTimer+Extension.m */; };
+		DFC194BD1ADB7C2F008134E5 /* UIAlertView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194991ADB7C2F008134E5 /* UIAlertView+Extension.m */; };
+		DFC194BE1ADB7C2F008134E5 /* UIButton+FillColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC1949B1ADB7C2F008134E5 /* UIButton+FillColor.m */; };
+		DFC194BF1ADB7C2F008134E5 /* UIFont+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC1949D1ADB7C2F008134E5 /* UIFont+Extension.m */; };
+		DFC194C01ADB7C2F008134E5 /* UINavigationController+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC1949F1ADB7C2F008134E5 /* UINavigationController+Rotate.m */; };
+		DFC194C11ADB7C2F008134E5 /* UITabBarController+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194A11ADB7C2F008134E5 /* UITabBarController+Rotate.m */; };
+		DFC194C21ADB7C2F008134E5 /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194A31ADB7C2F008134E5 /* UIView+Helper.m */; };
+		DFC194C31ADB7C2F008134E5 /* UIViewController+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194A51ADB7C2F008134E5 /* UIViewController+Helper.m */; };
+		DFC194C41ADB7C2F008134E5 /* UIWebView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194A71ADB7C2F008134E5 /* UIWebView+Extension.m */; };
+		DFC194C51ADB7C2F008134E5 /* EWFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194AB1ADB7C2F008134E5 /* EWFocusView.m */; };
+		DFC194C61ADB7C2F008134E5 /* EWLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194AD1ADB7C2F008134E5 /* EWLabel.m */; };
+		DFC194C71ADB7C2F008134E5 /* EWPhotoViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194AF1ADB7C2F008134E5 /* EWPhotoViewer.m */; };
+		DFC194C81ADB7C2F008134E5 /* EWShareSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194B11ADB7C2F008134E5 /* EWShareSheet.m */; };
+		DFC194C91ADB7C2F008134E5 /* EWTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194B31ADB7C2F008134E5 /* EWTextField.m */; };
+		DFC194CA1ADB7C2F008134E5 /* EWVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194B51ADB7C2F008134E5 /* EWVideoPlayer.m */; };
+		DFC194CB1ADB7C2F008134E5 /* VerticallyAlignedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194B71ADB7C2F008134E5 /* VerticallyAlignedLabel.m */; };
+		DFC194D21ADB7F13008134E5 /* EttBaseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194CF1ADB7F13008134E5 /* EttBaseDetailViewController.m */; };
+		DFC194D31ADB7F13008134E5 /* ETTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC194D11ADB7F13008134E5 /* ETTBaseViewController.m */; };
 		EEBDBFEBECEF43BE057B3B32 /* libPods-EttFrameWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E50F8B60CD98B83D563767DD /* libPods-EttFrameWork.a */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +96,54 @@
 		DF092A001AD92DD000F0B788 /* EttImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EttImageUtil.m; sourceTree = "<group>"; };
 		DF092A021AD92E3F00F0B788 /* EttSecurityUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EttSecurityUtil.h; sourceTree = "<group>"; };
 		DF092A031AD92E3F00F0B788 /* EttSecurityUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EttSecurityUtil.m; sourceTree = "<group>"; };
+		DFC194891ADB79F6008134E5 /* EttUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EttUtils.h; sourceTree = "<group>"; };
+		DFC1948A1ADB79F6008134E5 /* EttUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EttUtils.m; sourceTree = "<group>"; };
+		DFC1948E1ADB7C2F008134E5 /* NSData+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Extension.h"; sourceTree = "<group>"; };
+		DFC1948F1ADB7C2F008134E5 /* NSData+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Extension.m"; sourceTree = "<group>"; };
+		DFC194901ADB7C2F008134E5 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		DFC194911ADB7C2F008134E5 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		DFC194921ADB7C2F008134E5 /* NSJSONSerialization+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+Extension.h"; sourceTree = "<group>"; };
+		DFC194931ADB7C2F008134E5 /* NSJSONSerialization+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+Extension.m"; sourceTree = "<group>"; };
+		DFC194941ADB7C2F008134E5 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		DFC194951ADB7C2F008134E5 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		DFC194961ADB7C2F008134E5 /* NSTimer+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Extension.h"; sourceTree = "<group>"; };
+		DFC194971ADB7C2F008134E5 /* NSTimer+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Extension.m"; sourceTree = "<group>"; };
+		DFC194981ADB7C2F008134E5 /* UIAlertView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Extension.h"; sourceTree = "<group>"; };
+		DFC194991ADB7C2F008134E5 /* UIAlertView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Extension.m"; sourceTree = "<group>"; };
+		DFC1949A1ADB7C2F008134E5 /* UIButton+FillColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FillColor.h"; sourceTree = "<group>"; };
+		DFC1949B1ADB7C2F008134E5 /* UIButton+FillColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FillColor.m"; sourceTree = "<group>"; };
+		DFC1949C1ADB7C2F008134E5 /* UIFont+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Extension.h"; sourceTree = "<group>"; };
+		DFC1949D1ADB7C2F008134E5 /* UIFont+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Extension.m"; sourceTree = "<group>"; };
+		DFC1949E1ADB7C2F008134E5 /* UINavigationController+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Rotate.h"; sourceTree = "<group>"; };
+		DFC1949F1ADB7C2F008134E5 /* UINavigationController+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Rotate.m"; sourceTree = "<group>"; };
+		DFC194A01ADB7C2F008134E5 /* UITabBarController+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+Rotate.h"; sourceTree = "<group>"; };
+		DFC194A11ADB7C2F008134E5 /* UITabBarController+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+Rotate.m"; sourceTree = "<group>"; };
+		DFC194A21ADB7C2F008134E5 /* UIView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Helper.h"; sourceTree = "<group>"; };
+		DFC194A31ADB7C2F008134E5 /* UIView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Helper.m"; sourceTree = "<group>"; };
+		DFC194A41ADB7C2F008134E5 /* UIViewController+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Helper.h"; sourceTree = "<group>"; };
+		DFC194A51ADB7C2F008134E5 /* UIViewController+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Helper.m"; sourceTree = "<group>"; };
+		DFC194A61ADB7C2F008134E5 /* UIWebView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Extension.h"; sourceTree = "<group>"; };
+		DFC194A71ADB7C2F008134E5 /* UIWebView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Extension.m"; sourceTree = "<group>"; };
+		DFC194A81ADB7C2F008134E5 /* EasyWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyWork.h; sourceTree = "<group>"; };
+		DFC194AA1ADB7C2F008134E5 /* EWFocusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWFocusView.h; sourceTree = "<group>"; };
+		DFC194AB1ADB7C2F008134E5 /* EWFocusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWFocusView.m; sourceTree = "<group>"; };
+		DFC194AC1ADB7C2F008134E5 /* EWLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWLabel.h; sourceTree = "<group>"; };
+		DFC194AD1ADB7C2F008134E5 /* EWLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWLabel.m; sourceTree = "<group>"; };
+		DFC194AE1ADB7C2F008134E5 /* EWPhotoViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWPhotoViewer.h; sourceTree = "<group>"; };
+		DFC194AF1ADB7C2F008134E5 /* EWPhotoViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWPhotoViewer.m; sourceTree = "<group>"; };
+		DFC194B01ADB7C2F008134E5 /* EWShareSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWShareSheet.h; sourceTree = "<group>"; };
+		DFC194B11ADB7C2F008134E5 /* EWShareSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWShareSheet.m; sourceTree = "<group>"; };
+		DFC194B21ADB7C2F008134E5 /* EWTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWTextField.h; sourceTree = "<group>"; };
+		DFC194B31ADB7C2F008134E5 /* EWTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWTextField.m; sourceTree = "<group>"; };
+		DFC194B41ADB7C2F008134E5 /* EWVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWVideoPlayer.h; sourceTree = "<group>"; };
+		DFC194B51ADB7C2F008134E5 /* EWVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWVideoPlayer.m; sourceTree = "<group>"; };
+		DFC194B61ADB7C2F008134E5 /* VerticallyAlignedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticallyAlignedLabel.h; sourceTree = "<group>"; };
+		DFC194B71ADB7C2F008134E5 /* VerticallyAlignedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticallyAlignedLabel.m; sourceTree = "<group>"; };
+		DFC194CC1ADB7C50008134E5 /* OurLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OurLib.h; sourceTree = "<group>"; };
+		DFC194CE1ADB7F13008134E5 /* EttBaseDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EttBaseDetailViewController.h; sourceTree = "<group>"; };
+		DFC194CF1ADB7F13008134E5 /* EttBaseDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EttBaseDetailViewController.m; sourceTree = "<group>"; };
+		DFC194D01ADB7F13008134E5 /* ETTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTBaseViewController.h; sourceTree = "<group>"; };
+		DFC194D11ADB7F13008134E5 /* ETTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTBaseViewController.m; sourceTree = "<group>"; };
 		E50F8B60CD98B83D563767DD /* libPods-EttFrameWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EttFrameWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -189,6 +260,8 @@
 				DF0929DE1AD9113B00F0B788 /* Utils */,
 				DF0929EE1AD9234700F0B788 /* EttCommon.h */,
 				DF0929EF1AD9237600F0B788 /* EttDefine.h */,
+				DFC194891ADB79F6008134E5 /* EttUtils.h */,
+				DFC1948A1ADB79F6008134E5 /* EttUtils.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -255,6 +328,8 @@
 		DF0929E31AD9113B00F0B788 /* OurLib */ = {
 			isa = PBXGroup;
 			children = (
+				DFC194CC1ADB7C50008134E5 /* OurLib.h */,
+				DFC1948C1ADB7C2F008134E5 /* Easywork */,
 			);
 			path = OurLib;
 			sourceTree = "<group>";
@@ -271,8 +346,84 @@
 		DF0929E51AD9113B00F0B788 /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				DFC194CD1ADB7F13008134E5 /* Base */,
 			);
 			path = VC;
+			sourceTree = "<group>";
+		};
+		DFC1948C1ADB7C2F008134E5 /* Easywork */ = {
+			isa = PBXGroup;
+			children = (
+				DFC194A81ADB7C2F008134E5 /* EasyWork.h */,
+				DFC1948D1ADB7C2F008134E5 /* Category */,
+				DFC194A91ADB7C2F008134E5 /* UI */,
+			);
+			path = Easywork;
+			sourceTree = "<group>";
+		};
+		DFC1948D1ADB7C2F008134E5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				DFC1948E1ADB7C2F008134E5 /* NSData+Extension.h */,
+				DFC1948F1ADB7C2F008134E5 /* NSData+Extension.m */,
+				DFC194901ADB7C2F008134E5 /* NSDate+Extension.h */,
+				DFC194911ADB7C2F008134E5 /* NSDate+Extension.m */,
+				DFC194921ADB7C2F008134E5 /* NSJSONSerialization+Extension.h */,
+				DFC194931ADB7C2F008134E5 /* NSJSONSerialization+Extension.m */,
+				DFC194941ADB7C2F008134E5 /* NSString+Extension.h */,
+				DFC194951ADB7C2F008134E5 /* NSString+Extension.m */,
+				DFC194961ADB7C2F008134E5 /* NSTimer+Extension.h */,
+				DFC194971ADB7C2F008134E5 /* NSTimer+Extension.m */,
+				DFC194981ADB7C2F008134E5 /* UIAlertView+Extension.h */,
+				DFC194991ADB7C2F008134E5 /* UIAlertView+Extension.m */,
+				DFC1949A1ADB7C2F008134E5 /* UIButton+FillColor.h */,
+				DFC1949B1ADB7C2F008134E5 /* UIButton+FillColor.m */,
+				DFC1949C1ADB7C2F008134E5 /* UIFont+Extension.h */,
+				DFC1949D1ADB7C2F008134E5 /* UIFont+Extension.m */,
+				DFC1949E1ADB7C2F008134E5 /* UINavigationController+Rotate.h */,
+				DFC1949F1ADB7C2F008134E5 /* UINavigationController+Rotate.m */,
+				DFC194A01ADB7C2F008134E5 /* UITabBarController+Rotate.h */,
+				DFC194A11ADB7C2F008134E5 /* UITabBarController+Rotate.m */,
+				DFC194A21ADB7C2F008134E5 /* UIView+Helper.h */,
+				DFC194A31ADB7C2F008134E5 /* UIView+Helper.m */,
+				DFC194A41ADB7C2F008134E5 /* UIViewController+Helper.h */,
+				DFC194A51ADB7C2F008134E5 /* UIViewController+Helper.m */,
+				DFC194A61ADB7C2F008134E5 /* UIWebView+Extension.h */,
+				DFC194A71ADB7C2F008134E5 /* UIWebView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		DFC194A91ADB7C2F008134E5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DFC194AA1ADB7C2F008134E5 /* EWFocusView.h */,
+				DFC194AB1ADB7C2F008134E5 /* EWFocusView.m */,
+				DFC194AC1ADB7C2F008134E5 /* EWLabel.h */,
+				DFC194AD1ADB7C2F008134E5 /* EWLabel.m */,
+				DFC194AE1ADB7C2F008134E5 /* EWPhotoViewer.h */,
+				DFC194AF1ADB7C2F008134E5 /* EWPhotoViewer.m */,
+				DFC194B01ADB7C2F008134E5 /* EWShareSheet.h */,
+				DFC194B11ADB7C2F008134E5 /* EWShareSheet.m */,
+				DFC194B21ADB7C2F008134E5 /* EWTextField.h */,
+				DFC194B31ADB7C2F008134E5 /* EWTextField.m */,
+				DFC194B41ADB7C2F008134E5 /* EWVideoPlayer.h */,
+				DFC194B51ADB7C2F008134E5 /* EWVideoPlayer.m */,
+				DFC194B61ADB7C2F008134E5 /* VerticallyAlignedLabel.h */,
+				DFC194B71ADB7C2F008134E5 /* VerticallyAlignedLabel.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DFC194CD1ADB7F13008134E5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DFC194CE1ADB7F13008134E5 /* EttBaseDetailViewController.h */,
+				DFC194CF1ADB7F13008134E5 /* EttBaseDetailViewController.m */,
+				DFC194D01ADB7F13008134E5 /* ETTBaseViewController.h */,
+				DFC194D11ADB7F13008134E5 /* ETTBaseViewController.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,17 +561,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFC194C11ADB7C2F008134E5 /* UITabBarController+Rotate.m in Sources */,
+				DFC194CA1ADB7C2F008134E5 /* EWVideoPlayer.m in Sources */,
+				DFC194B91ADB7C2F008134E5 /* NSDate+Extension.m in Sources */,
+				DFC194BE1ADB7C2F008134E5 /* UIButton+FillColor.m in Sources */,
+				DFC194BD1ADB7C2F008134E5 /* UIAlertView+Extension.m in Sources */,
+				DFC194C21ADB7C2F008134E5 /* UIView+Helper.m in Sources */,
+				DFC194CB1ADB7C2F008134E5 /* VerticallyAlignedLabel.m in Sources */,
+				DFC194BC1ADB7C2F008134E5 /* NSTimer+Extension.m in Sources */,
 				DF0929BF1AD901AF00F0B788 /* ViewController.m in Sources */,
 				DF0929FB1AD92CCF00F0B788 /* EttDeviceUtil.m in Sources */,
 				DF0929BC1AD901AF00F0B788 /* AppDelegate.m in Sources */,
+				DFC194C51ADB7C2F008134E5 /* EWFocusView.m in Sources */,
+				DFC194C41ADB7C2F008134E5 /* UIWebView+Extension.m in Sources */,
 				DF092A041AD92E3F00F0B788 /* EttSecurityUtil.m in Sources */,
 				DF0929B91AD901AF00F0B788 /* main.m in Sources */,
 				DF0929F21AD9251200F0B788 /* EttModelUtils.m in Sources */,
 				DF092A011AD92DD000F0B788 /* EttImageUtil.m in Sources */,
+				DFC194BA1ADB7C2F008134E5 /* NSJSONSerialization+Extension.m in Sources */,
+				DFC194B81ADB7C2F008134E5 /* NSData+Extension.m in Sources */,
+				DFC194C01ADB7C2F008134E5 /* UINavigationController+Rotate.m in Sources */,
+				DFC194D21ADB7F13008134E5 /* EttBaseDetailViewController.m in Sources */,
+				DFC1948B1ADB79F6008134E5 /* EttUtils.m in Sources */,
+				DFC194C61ADB7C2F008134E5 /* EWLabel.m in Sources */,
+				DFC194C81ADB7C2F008134E5 /* EWShareSheet.m in Sources */,
 				DF0929FE1AD92DAC00F0B788 /* EttFileUtil.m in Sources */,
 				DF0929F51AD9275500F0B788 /* NSString+DES.m in Sources */,
 				DF0929F81AD9295E00F0B788 /* EttUserDefaultUtil.m in Sources */,
+				DFC194C31ADB7C2F008134E5 /* UIViewController+Helper.m in Sources */,
+				DFC194C91ADB7C2F008134E5 /* EWTextField.m in Sources */,
 				DF0929E91AD914EB00F0B788 /* EttHttpManager.m in Sources */,
+				DFC194BF1ADB7C2F008134E5 /* UIFont+Extension.m in Sources */,
+				DFC194C71ADB7C2F008134E5 /* EWPhotoViewer.m in Sources */,
+				DFC194BB1ADB7C2F008134E5 /* NSString+Extension.m in Sources */,
+				DFC194D31ADB7F13008134E5 /* ETTBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

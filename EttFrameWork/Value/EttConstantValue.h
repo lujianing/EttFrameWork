@@ -18,6 +18,7 @@ static NSString *const COMMON_BASE_URL =@"";
 static NSString *const APP_NAME = @"";
 static NSString *const APP_ID = @"";
 static float const NET_REQUEST_TIMEOUT =10.0f;
+static NSString *const APP_SECURITY_KEY = @"";
 
 
 //页面常量

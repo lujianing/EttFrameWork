@@ -53,4 +53,6 @@
  *  @return 新图
  */
 + (UIImage *)fixOrientation:(UIImage *)aImage;
+
+
 @end
