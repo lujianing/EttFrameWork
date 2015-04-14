@@ -13,6 +13,9 @@ pod 'MJRefresh','~> 1.3.7'
 pod 'TPKeyboardAvoiding','~> 1.2.6'
 pod 'MJExtension','~> 0.3.1'
 
+pod 'ReactiveCocoa'
+pod 'Masonry'
+
 pod 'UMengAnalytics'
 pod 'UMengMessage'
 pod 'UMengSocial'

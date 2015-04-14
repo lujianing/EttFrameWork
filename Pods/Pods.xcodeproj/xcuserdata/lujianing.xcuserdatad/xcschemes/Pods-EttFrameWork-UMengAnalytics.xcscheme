@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8574993B97DA988BB143EDF3"
+               BlueprintIdentifier = "E0BF6AF2DFDF73989D1BC7E9"
                BuildableName = "libPods-EttFrameWork-UMengAnalytics.a"
                BlueprintName = "Pods-EttFrameWork-UMengAnalytics"
                ReferencedContainer = "container:Pods.xcodeproj">
