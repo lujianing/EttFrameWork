@@ -7,6 +7,7 @@
 //
 
 #import "NSString+Extension.h"
+#import "UIFont+Extension.h"
 #import <CommonCrypto/CommonDigest.h>
 
 

@@ -102,10 +102,10 @@
     if (showPageIndicator) {
         // _titleLabel.frame = CGRectMake(5, 0, 250, 40);
         
-        _pageControl= [[UIPageControl alloc] initWithFrame:CGRectMake(W(_titleBackgroundView)-70, 25, 70, 10)];
+        _pageControl= [[UIPageControl alloc] initWithFrame:CGRectMake(_titleBackgroundView.frame.size.width-70, 25, 70, 10)];
         _pageControl.pageIndicatorTintColor = [UIColor colorWithWhite:1.0 alpha:0.6];
         _pageControl.currentPageIndicatorTintColor = [UIColor whiteColor];
-        _pageControl.backgroundColor = CLEAR_COLOR;
+        _pageControl.backgroundColor = [UIColor clearColor];
         [_titleBackgroundView addSubview:_pageControl];
     }
     
@@ -136,7 +136,7 @@
         }else{
             _pageControl.hidden = NO;
         }
-        _pageControl.frame = CGRectMake(W(_titleBackgroundView)-pages*15-10, 25, pages*15, 10);
+        _pageControl.frame = CGRectMake(_titleBackgroundView.frame.size.width-pages*15-10, 25, pages*15, 10);
     }
     
     if (pages != 0) {

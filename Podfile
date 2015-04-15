@@ -3,7 +3,7 @@
 
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'EttFrameWork' do
+target 'EttFrameWorkSample' do
 pod 'AFNetworking', '~> 2.5.0'
 pod 'SDWebImage', '~> 3.7.1'
 pod 'MBProgressHUD', '~> 0.9'
@@ -22,7 +22,7 @@ pod 'UMengSocial'
 
 end
 
-target 'EttFrameWork' do
+target 'EttFrameWorkSample' do
 
 end
 

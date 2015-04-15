@@ -30,7 +30,7 @@
     NSString * cachesDirectory = NSHomeDirectory();
     cachesDirectory = [cachesDirectory stringByAppendingPathComponent:@"Library"];
     cachesDirectory = [cachesDirectory stringByAppendingPathComponent:@"Caches"];
-    cachesDirectory = [cachesDirectory stringByAppendingPathComponent:USER_ID];
+//    cachesDirectory = [cachesDirectory stringByAppendingPathComponent:USER_ID];
     
     BOOL isDirectory = NO;
     BOOL directoryExists = [[NSFileManager defaultManager] fileExistsAtPath:cachesDirectory isDirectory:&isDirectory];

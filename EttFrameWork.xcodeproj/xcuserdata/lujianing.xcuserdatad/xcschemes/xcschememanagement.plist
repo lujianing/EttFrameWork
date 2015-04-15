@@ -9,6 +9,16 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>EttFrameWorkSample.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
+		<key>EttFrameWork_iPad.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +28,16 @@
 			<true/>
 		</dict>
 		<key>DF0929CB1AD901AF00F0B788</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF58BC121ADE7AC000444315</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DF58BC2A1ADE7AC000444315</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -4,72 +4,72 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-EttFrameWork-AFNetworking.xcscheme</key>
+		<key>Pods-EttFrameWorkSample-AFNetworking.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-EttFrameWork-FMDB.xcscheme</key>
+		<key>Pods-EttFrameWorkSample-FMDB.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-EttFrameWork-MBProgressHUD.xcscheme</key>
+		<key>Pods-EttFrameWorkSample-MBProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-EttFrameWork-MJExtension.xcscheme</key>
+		<key>Pods-EttFrameWorkSample-MJExtension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-EttFrameWork-MJRefresh.xcscheme</key>
+		<key>Pods-EttFrameWorkSample-MJRefresh.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-EttFrameWork-Masonry.xcscheme</key>
+		<key>Pods-EttFrameWorkSample-Masonry.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-EttFrameWork-ReactiveCocoa.xcscheme</key>
+		<key>Pods-EttFrameWorkSample-ReactiveCocoa.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-EttFrameWork-SDWebImage.xcscheme</key>
+		<key>Pods-EttFrameWorkSample-SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-EttFrameWork-TPKeyboardAvoiding.xcscheme</key>
+		<key>Pods-EttFrameWorkSample-TPKeyboardAvoiding.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-EttFrameWork-Toast.xcscheme</key>
+		<key>Pods-EttFrameWorkSample-Toast.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-EttFrameWork-UMengAnalytics.xcscheme</key>
+		<key>Pods-EttFrameWorkSample-UMengAnalytics.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-EttFrameWork-UMengMessage.xcscheme</key>
+		<key>Pods-EttFrameWorkSample-UMengMessage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-EttFrameWork-UMengSocial.xcscheme</key>
+		<key>Pods-EttFrameWorkSample-UMengSocial.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-EttFrameWork.xcscheme</key>
+		<key>Pods-EttFrameWorkSample.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -77,72 +77,72 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>278844CD36F7BF915860F0F8</key>
+		<key>0A1AEBC4C7EF7DC3942070DA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4EE7A9F31334B6381F236F45</key>
+		<key>10FAF132A604CDB6B7A5DFFA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>591E2993429C94D705AC451F</key>
+		<key>47E60068C3B3D0B12107928A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5DFF21BAD69B809C6E2FC5FB</key>
+		<key>506278E1862D526E86D0F6E1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>60962B10456439EA83A15165</key>
+		<key>5BA75A87C9390F7DB7AB8C5B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6177AA140424D5684FA5A76A</key>
+		<key>6BDA0E79150BD0E475EEC086</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>71F7B771F5334033FAF539EB</key>
+		<key>6C7A9E136EC0CBC96047D69A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8077D85BD947EF9877FEAA14</key>
+		<key>7DDA499097EDACF0E2BFAEAA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>85F5AF7839DD2AC0239449CF</key>
+		<key>8230A170D15DE3C17361E194</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8BE91FB45173441176DE4973</key>
+		<key>923A0E50CF0A695E9FC0E2FF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B620BABC2598344945E6B17D</key>
+		<key>938B172B1FD599E35A76A8A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BE7DCF7CB7F27DAAC32FBA8F</key>
+		<key>9A98D5426945FD59E71125FA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C3F3760D4A31397C9BDCE7C4</key>
+		<key>A2500B908ECBD1A6F61CA2AD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E0BF6AF2DFDF73989D1BC7E9</key>
+		<key>B307EB954654F38E592D3F60</key>
 		<dict>
 			<key>primary</key>
 			<true/>
