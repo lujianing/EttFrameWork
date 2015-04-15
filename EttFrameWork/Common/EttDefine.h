@@ -70,4 +70,13 @@
 #define ImageWithFile(name) ([UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:name ofType:nil]])
 #define ImageNamed(name) [UIImage imageNamed:name]
 
+#pragma mark -NSLog 开发版显示 release不打印-
+
+#if DEBUG
+#warning NSLogs will be shown
+#else
+#define NSLog(...) {}
+#endif
+
+
 #endif
