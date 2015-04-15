@@ -153,6 +153,11 @@
     
 }
 
+-(void)httpFailure:(NSError *)error toastText:(NSString *)text
+{
+    [self httpFailure:error showToast:NO toastText:text];
+}
+
 -(void)httpFailure:(NSError *)error showToast:(BOOL)show toastText:(NSString *)text{
     
     [self hideLoading];

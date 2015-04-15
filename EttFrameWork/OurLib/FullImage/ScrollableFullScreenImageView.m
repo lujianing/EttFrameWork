@@ -268,7 +268,7 @@
             break;
         case 1:
         {
-            DBLog(@"");
+        //    DBLog(@"");
         }
             break;
         default:
@@ -282,8 +282,8 @@
         
         NSMutableArray *array = [[NSMutableArray alloc]init];
         for(int i=0 ;i<imageURLStringArray.count; i++){
-            if ([ETTUtils getPictureBig:imageURLStringArray[i]] != nil) {
-                [array addObject:[ETTUtils getPictureBig:imageURLStringArray[i]]];
+            if ([EttUtils getPictureBig:imageURLStringArray[i]] != nil) {
+                [array addObject:[EttUtils getPictureBig:imageURLStringArray[i]]];
             }
         }
         
