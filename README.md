@@ -1,5 +1,12 @@
 #EttFrameWork
 
+####使用方法
+
+EttFrameWork文件夹 添加到项目中
+
+在项目中 `#import "EttFrameWork.h"` 
+
+
 ####项目模块划分
 
 * Common----------公共类  
